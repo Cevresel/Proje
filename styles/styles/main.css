@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7f1; /* Koyu yeşil arka plan */
+    color: #333;
+}
+
+header {
+    background-color: #00796b; /* Koyu yeşil */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-size: 2em;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+}
+
+button.info {
+    background-color: #2196f3; /* Mavi */
+    color: white;
+}
+
+button.data-entry {
+    background-color: #f44336; /* Kırmızı */
+    color: white;
+}
+
+button.register {
+    background-color: #ffffff; /* Beyaz */
+    color: black;
+    border: 1px solid #333;
+}
